@@ -1,0 +1,138 @@
+body {
+    background-color: cornsilk;
+}
+
+.navbar {
+    /*background-color: aqua;*/
+}
+.logo {
+    font-family: Montserrat;
+    font-size: 30px;
+}
+.nav {
+    display: flex;
+    /* justify-content: flex-end; */
+    position: absolute;
+    right: 200px;
+}
+.nav-button {
+    /* padding-right: 60px;*/
+    font-size: 20px;
+    font-family: Montserrat;
+    padding-right: 50px;
+}
+
+.intro {
+    /* background-color: yellow; */
+    position: absolute;
+    left: 10%;
+    transform: translate(-5%, 70%);
+}
+.intro p:nth-child(1) {
+    font-family: Montserrat;
+    color: black;
+    font-size: 20px;
+}
+.intro p:nth-child(2) {
+    font-family: 'Fascinate', cursive;
+    letter-spacing: 0.5px;
+    color: black;
+    font-size: 50px;
+}
+.intro p:nth-child(3) {
+    font-family: Montserrat;
+    color: black;
+    font-size: 25px;
+    line-height: 20px;
+}
+.intro p {
+    line-height: 4px;
+    margin: 45px 0px 25px;
+}
+
+.idol {
+    height: 500px;
+    position: absolute;
+    left: 55%;
+    transform: translateY(10%);
+    border-radius: 50px;
+}
+
+.about-section {
+    width: 80%;
+    height: 330px;
+    /* background-color: yellow; */
+    display: flex;
+    position: relative;
+    transform: translate(5%,180%);
+    align-items: center;
+}
+.about-me {
+    width: 1050px;
+}
+.about-me h2:nth-child(1) {
+    font-family: 'Fascinate', cursive;
+    font-size: 32px;
+}
+.about-me p:nth-child(2) {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: bold;
+}
+.about-me p:nth-child(3) {
+    font-family: Montserrat;
+    font-size: 16px;
+}
+.about-me p:nth-child(4) {
+    font-family: Montserrat;
+    font-size: 16px;
+}
+
+.work {
+    width: 90%;
+    height: 450px;
+    /* background-color: yellow; */
+    display: flex;
+    position: relative;
+    transform: translate(4%,130%);
+}
+.work h2:nth-child(1) {
+    font-family: 'Fascinate', cursive;
+    font-size: 32px;
+}
+.work h4 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: bold;
+}
+.work ul {
+    font-family: Montserrat;
+    font-size: 16px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    transform: translate(1000%, 950%);
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    /* display: flex;
+    position: relative;
+    transform: translate(5%, 190%); */
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
